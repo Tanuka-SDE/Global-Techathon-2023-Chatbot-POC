@@ -26,7 +26,7 @@ services:
       - "redis"
     environment:
       JUPYTER_ENABLE_LAB: "yes"
-      OPENAI_API_KEY: "paste your own api key here"
+      OPENAI_API_KEY: "paste your API key here"
 
 volumes:
   redis_data:
